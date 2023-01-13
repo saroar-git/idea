@@ -217,3 +217,82 @@ top blogs styles
     background-color: #ffffff;
     margin-top: 20px;
 }
+
+/* media queries for small */
+
+@media only screen and (max-width:688px) {
+
+    .header, .container, .core{
+        width: 100%;
+        height: auto;
+    }
+
+    .players, .blogs, .courses{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .player, .blog{
+        flex-direction: column;
+    }
+
+    .blog-title{
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .blog-author{
+        color: #9F9F9F;
+        font-size: 14px;
+    }
+
+    .blog-author a{
+        text-decoration: none;
+        font-size: 14px;
+        color: #562EFF;
+    }
+
+    }
+
+
+
+    /* media queries for medium */
+
+    @media only screen and (min-width:689px) and (max-width:992px) {
+        
+        .header, .container, .core{
+            width: 100%;
+            height: auto;
+        }
+    
+        .players{
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+        }
+
+        .blogs, .courses{
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+    
+        .player, .blog{
+            flex-direction: column;
+        }
+
+        .blog-title{
+            font-size: 18x;
+            margin-bottom: 6px;
+        }
+    
+        .blog-author{
+            color: #9F9F9F;
+            font-size: 14px;
+        }
+    
+        .blog-author a{
+            text-decoration: none;
+            font-size: 14px;
+            color: #562EFF;
+        }
+    
+    }
