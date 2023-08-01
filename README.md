@@ -1,3 +1,3 @@
-## The Legal House - a static, responsive website.
+## Idea - a static, responsive website.
 
-# Site: [Legal House](https://spiffy-mousse-cf10c7.netlify.app/)
+# Site: [Idea](https://idea-players.netlify.app/)
